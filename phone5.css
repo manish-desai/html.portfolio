@@ -1,0 +1,156 @@
+/* .card:hover img {
+    transform: scale(1.06);
+} */
+.card:hover{
+    transform: scale(1.06);
+}
+.card img {
+    object-fit: cover;
+    transition: transform 0.3s;
+    border-radius: 20px;
+   
+}
+.all-img{
+
+background-color:white;
+height: 100vh;
+width: 100vw;
+margin-top: 800px;
+}
+.card{
+    object-fit: cover;
+    transition: transform 0.3s;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.our-work{
+    position: relative;
+    top: 840px;
+    left: 30px;
+}
+.work1{
+    font-size: 28px;
+    font-weight:bold;
+    font-family:serif;
+    color:  rgb(255, 0, 8);
+    font-family: 'Playfair', serif;
+}
+h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.youtube p{
+    position: relative;
+    left: 22px;
+    font-size: 15px;
+    font-family: 'Playfair', serif;
+}
+.youtube{
+    background-color:#D8C4B6;
+    height: 200px;
+    width: 100%;
+    font-family: 'Playfair', serif;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    border: 1px  solid black;
+
+}
+.link-youtube{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.youtube-1{
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 10px;  
+}
+.youtube-line{
+    background-color: blue;
+    height: 3px;
+    width: 230px;
+    position: relative;
+    left:20px;
+    border-radius: 10px;
+}
+ .youtube a{
+    text-decoration: none;
+    color:blue;
+    animation-name:youtube;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+@keyframes youtube{ 
+    from{
+    color: blue;
+    }
+    to{
+    color: red;
+    }
+    }
+.footer{
+    right: 25px;
+    background-color:navy;
+    height: 200px;
+    color: white;
+    width: 1280px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Playfair', serif;
+}
+.address{
+    position: relative;
+    top: 14px;
+    font-size: 25px;
+    font-family: 'Playfair', serif;
+}
+.footer h3{
+    position: relative;
+    top: 10px;
+    font-family: 'Playfair', serif;
+    font-size: 35px;
+}
+.footer a{
+    text-decoration: none;
+}
+.address span i{
+    font-size: 17px;
+    position: relative;
+    left: -5px;
+}
+
+@media (max-width: 768px){
+   
+    .youtube p{
+        position: relative;
+        left: 22px;
+        font-size: 12px;
+    }
+    .youtube{
+        height: 130px;
+    }
+    .link-youtube{
+        font-size: 20px;
+    }
+    .footer{
+        right: 25px;
+        background-color:navy;
+        height: 160px;
+        color: white;
+        width: 100vw;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-family: 'Playfair', serif;
+    }
+    .youtube-line{
+        background-color: blue;
+        height: 2px;
+        width: 150px;
+    }
+}
